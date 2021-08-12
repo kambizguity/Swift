@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CardViewController.buttonNext(_:):CardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pageControl.currentPage">
+            </PersistentString>
+            <PersistentString
+               value = "pageControl.numberOfPages - 1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CardViewController.buttonPrevious(_:):CardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pageControl.currentPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

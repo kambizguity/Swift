@@ -1,0 +1,42 @@
+JSON & Ajax:
+
+What are different between JSON and XML?
+
+Requirements: HTML, CSS and Knowledge of Web Programming. (MySQL Programing & PHP)
+
+JSON:
+XML -> Jomula uses XML for RSS
+
+JSON and XML try to transfer data from a resource (File or Database) to a destination!
+
+Resource: Database of Website
+  - Send Data to Database
+    - Post
+  - Receive Data from a destination
+    - Get
+
+JSON:
+  Form -> Post or Get (JSON + Ajax) -> Server: PHP or ASP.NET -> Transfer Data to Database
+    - We need Post and Get functions to use JSON.
+    - Hierarchies: Speed, High performance, Convertible
+    - If you have huge visitor or clients for your services, JSON can handle anything so easy with low bandwidth and high performance!
+    - If you can't implement JSON,  XML is the best choose!
+
+
+WebScript Language
+  Client Language
+    - HTML
+    - CSS
+    - JQuery
+    - JavaScript
+      -So Powerful
+        - JQuery
+        - JSON : Client Language -> Java Script Object Notation
+        - NodeJS
+    - Ajax
+    - EngulaJS
+  Server Language
+    - PHP
+    - ASP.NET
+
+Where can i write my JSON code in my pages?

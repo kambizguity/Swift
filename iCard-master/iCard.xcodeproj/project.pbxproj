@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881B9AA922B1319A00BF001B /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B9AA822B1319A00BF001B /* global.swift */; };
+		881B9AB222B14A6E00BF001B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B9AB122B14A6E00BF001B /* TableViewController.swift */; };
+		881B9AB422B14A9300BF001B /* SelectCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B9AB322B14A9300BF001B /* SelectCategoryViewController.swift */; };
+		881C5A2F22AF86290091829A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C5A2E22AF86290091829A /* AppDelegate.swift */; };
+		881C5A3422AF86290091829A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881C5A3222AF86290091829A /* Main.storyboard */; };
+		881C5A3722AF86290091829A /* iCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881C5A3522AF86290091829A /* iCard.xcdatamodeld */; };
+		881C5A3922AF862B0091829A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881C5A3822AF862B0091829A /* Assets.xcassets */; };
+		881C5A3C22AF862B0091829A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881C5A3A22AF862B0091829A /* LaunchScreen.storyboard */; };
+		881C5A4722AF862B0091829A /* iCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C5A4622AF862B0091829A /* iCardTests.swift */; };
+		881C5A5222AF862B0091829A /* iCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C5A5122AF862B0091829A /* iCardUITests.swift */; };
+		881C5A6022AFB3860091829A /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C5A5F22AFB3860091829A /* CardViewController.swift */; };
+		881C69CF22B256D500FE8766 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C69CE22B256D500FE8766 /* AddCardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881C5A4322AF862B0091829A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881C5A2322AF86290091829A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881C5A2A22AF86290091829A;
+			remoteInfo = iCard;
+		};
+		881C5A4E22AF862B0091829A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881C5A2322AF86290091829A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881C5A2A22AF86290091829A;
+			remoteInfo = iCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		881B9AA822B1319A00BF001B /* global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		881B9AB122B14A6E00BF001B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		881B9AB322B14A9300BF001B /* SelectCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryViewController.swift; sourceTree = "<group>"; };
+		881C5A2B22AF86290091829A /* iCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881C5A2E22AF86290091829A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		881C5A3322AF86290091829A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881C5A3622AF86290091829A /* iCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCard.xcdatamodel; sourceTree = "<group>"; };
+		881C5A3822AF862B0091829A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881C5A3B22AF862B0091829A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881C5A3D22AF862B0091829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881C5A4222AF862B0091829A /* iCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881C5A4622AF862B0091829A /* iCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCardTests.swift; sourceTree = "<group>"; };
+		881C5A4822AF862B0091829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881C5A4D22AF862B0091829A /* iCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881C5A5122AF862B0091829A /* iCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCardUITests.swift; sourceTree = "<group>"; };
+		881C5A5322AF862B0091829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881C5A5F22AFB3860091829A /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		881C69CE22B256D500FE8766 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881C5A2822AF86290091829A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881C5A3F22AF862B0091829A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881C5A4A22AF862B0091829A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881B9AAD22B13DA400BF001B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				881C5A5F22AFB3860091829A /* CardViewController.swift */,
+				881C69CE22B256D500FE8766 /* AddCardViewController.swift */,
+				881B9AB322B14A9300BF001B /* SelectCategoryViewController.swift */,
+				881B9AB122B14A6E00BF001B /* TableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		881B9AAE22B13DBB00BF001B /* Helpting files */ = {
+			isa = PBXGroup;
+			children = (
+				881B9AA822B1319A00BF001B /* global.swift */,
+			);
+			path = "Helpting files";
+			sourceTree = "<group>";
+		};
+		881C5A2222AF86290091829A = {
+			isa = PBXGroup;
+			children = (
+				881C5A2D22AF86290091829A /* iCard */,
+				881C5A4522AF862B0091829A /* iCardTests */,
+				881C5A5022AF862B0091829A /* iCardUITests */,
+				881C5A2C22AF86290091829A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881C5A2C22AF86290091829A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881C5A2B22AF86290091829A /* iCard.app */,
+				881C5A4222AF862B0091829A /* iCardTests.xctest */,
+				881C5A4D22AF862B0091829A /* iCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881C5A2D22AF86290091829A /* iCard */ = {
+			isa = PBXGroup;
+			children = (
+				881C5A2E22AF86290091829A /* AppDelegate.swift */,
+				881C5A3222AF86290091829A /* Main.storyboard */,
+				881B9AAD22B13DA400BF001B /* View Controllers */,
+				881B9AAE22B13DBB00BF001B /* Helpting files */,
+				881C5A3822AF862B0091829A /* Assets.xcassets */,
+				881C5A3A22AF862B0091829A /* LaunchScreen.storyboard */,
+				881C5A3D22AF862B0091829A /* Info.plist */,
+				881C5A3522AF86290091829A /* iCard.xcdatamodeld */,
+			);
+			path = iCard;
+			sourceTree = "<group>";
+		};
+		881C5A4522AF862B0091829A /* iCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				881C5A4622AF862B0091829A /* iCardTests.swift */,
+				881C5A4822AF862B0091829A /* Info.plist */,
+			);
+			path = iCardTests;
+			sourceTree = "<group>";
+		};
+		881C5A5022AF862B0091829A /* iCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				881C5A5122AF862B0091829A /* iCardUITests.swift */,
+				881C5A5322AF862B0091829A /* Info.plist */,
+			);
+			path = iCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881C5A2A22AF86290091829A /* iCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881C5A5622AF862B0091829A /* Build configuration list for PBXNativeTarget "iCard" */;
+			buildPhases = (
+				881C5A2722AF86290091829A /* Sources */,
+				881C5A2822AF86290091829A /* Frameworks */,
+				881C5A2922AF86290091829A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCard;
+			productName = iCard;
+			productReference = 881C5A2B22AF86290091829A /* iCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881C5A4122AF862B0091829A /* iCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881C5A5922AF862B0091829A /* Build configuration list for PBXNativeTarget "iCardTests" */;
+			buildPhases = (
+				881C5A3E22AF862B0091829A /* Sources */,
+				881C5A3F22AF862B0091829A /* Frameworks */,
+				881C5A4022AF862B0091829A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881C5A4422AF862B0091829A /* PBXTargetDependency */,
+			);
+			name = iCardTests;
+			productName = iCardTests;
+			productReference = 881C5A4222AF862B0091829A /* iCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		881C5A4C22AF862B0091829A /* iCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881C5A5C22AF862B0091829A /* Build configuration list for PBXNativeTarget "iCardUITests" */;
+			buildPhases = (
+				881C5A4922AF862B0091829A /* Sources */,
+				881C5A4A22AF862B0091829A /* Frameworks */,
+				881C5A4B22AF862B0091829A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881C5A4F22AF862B0091829A /* PBXTargetDependency */,
+			);
+			name = iCardUITests;
+			productName = iCardUITests;
+			productReference = 881C5A4D22AF862B0091829A /* iCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881C5A2322AF86290091829A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Pazhg;
+				TargetAttributes = {
+					881C5A2A22AF86290091829A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					881C5A4122AF862B0091829A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 881C5A2A22AF86290091829A;
+					};
+					881C5A4C22AF862B0091829A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 881C5A2A22AF86290091829A;
+					};
+				};
+			};
+			buildConfigurationList = 881C5A2622AF86290091829A /* Build configuration list for PBXProject "iCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881C5A2222AF86290091829A;
+			productRefGroup = 881C5A2C22AF86290091829A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881C5A2A22AF86290091829A /* iCard */,
+				881C5A4122AF862B0091829A /* iCardTests */,
+				881C5A4C22AF862B0091829A /* iCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881C5A2922AF86290091829A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881C5A3C22AF862B0091829A /* LaunchScreen.storyboard in Resources */,
+				881C5A3922AF862B0091829A /* Assets.xcassets in Resources */,
+				881C5A3422AF86290091829A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881C5A4022AF862B0091829A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881C5A4B22AF862B0091829A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881C5A2722AF86290091829A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881C69CF22B256D500FE8766 /* AddCardViewController.swift in Sources */,
+				881B9AB422B14A9300BF001B /* SelectCategoryViewController.swift in Sources */,
+				881B9AA922B1319A00BF001B /* global.swift in Sources */,
+				881C5A3722AF86290091829A /* iCard.xcdatamodeld in Sources */,
+				881C5A2F22AF86290091829A /* AppDelegate.swift in Sources */,
+				881B9AB222B14A6E00BF001B /* TableViewController.swift in Sources */,
+				881C5A6022AFB3860091829A /* CardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881C5A3E22AF862B0091829A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881C5A4722AF862B0091829A /* iCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881C5A4922AF862B0091829A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881C5A5222AF862B0091829A /* iCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881C5A4422AF862B0091829A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881C5A2A22AF86290091829A /* iCard */;
+			targetProxy = 881C5A4322AF862B0091829A /* PBXContainerItemProxy */;
+		};
+		881C5A4F22AF862B0091829A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881C5A2A22AF86290091829A /* iCard */;
+			targetProxy = 881C5A4E22AF862B0091829A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		881C5A3222AF86290091829A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881C5A3322AF86290091829A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881C5A3A22AF862B0091829A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881C5A3B22AF862B0091829A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881C5A5422AF862B0091829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881C5A5522AF862B0091829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881C5A5722AF862B0091829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBAA2LXSQ;
+				INFOPLIST_FILE = iCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazhg.iCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		881C5A5822AF862B0091829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBAA2LXSQ;
+				INFOPLIST_FILE = iCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazhg.iCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		881C5A5A22AF862B0091829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBAA2LXSQ;
+				INFOPLIST_FILE = iCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazhg.iCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCard.app/iCard";
+			};
+			name = Debug;
+		};
+		881C5A5B22AF862B0091829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBAA2LXSQ;
+				INFOPLIST_FILE = iCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazhg.iCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCard.app/iCard";
+			};
+			name = Release;
+		};
+		881C5A5D22AF862B0091829A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBAA2LXSQ;
+				INFOPLIST_FILE = iCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazhg.iCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iCard;
+			};
+			name = Debug;
+		};
+		881C5A5E22AF862B0091829A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBAA2LXSQ;
+				INFOPLIST_FILE = iCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazhg.iCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881C5A2622AF86290091829A /* Build configuration list for PBXProject "iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881C5A5422AF862B0091829A /* Debug */,
+				881C5A5522AF862B0091829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881C5A5622AF862B0091829A /* Build configuration list for PBXNativeTarget "iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881C5A5722AF862B0091829A /* Debug */,
+				881C5A5822AF862B0091829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881C5A5922AF862B0091829A /* Build configuration list for PBXNativeTarget "iCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881C5A5A22AF862B0091829A /* Debug */,
+				881C5A5B22AF862B0091829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881C5A5C22AF862B0091829A /* Build configuration list for PBXNativeTarget "iCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881C5A5D22AF862B0091829A /* Debug */,
+				881C5A5E22AF862B0091829A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		881C5A3522AF86290091829A /* iCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				881C5A3622AF86290091829A /* iCard.xcdatamodel */,
+			);
+			currentVersion = 881C5A3622AF86290091829A /* iCard.xcdatamodel */;
+			path = iCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 881C5A2322AF86290091829A /* Project object */;
+}

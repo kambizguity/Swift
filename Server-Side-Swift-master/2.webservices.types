@@ -1,0 +1,74 @@
+Web Services:
+
+It's a directory that contains functions.
+We can run each function with out devices!
+
+When do  we use a web-service?
+If the result of a task is more important that implementing the task, and we don't want to involve a developer or a system to complexity with no permission to all data or codes,
+We can use web-service.
+  - No access to resources
+
+Web-Services category:
+REST: are simple and useful.
+  - Simple
+  - Send our request - GET, POST - DELETE
+  - Response are JSON
+  - Low Volume
+  - Low Bandwidth
+  - Ajax
+    - Web API
+
+XML Web-Services - ASMX
+  - ASMX Web Service -  ASP.NET XML - Web Service
+  - Request & Response are in XML
+  - High Volume
+  - High Bandwidth
+  - SOAP Protocol - ASP.NET
+    - Add an item.
+      - Attributes web-Services
+        - Web method
+        ( PERSON , parameters: Person )
+          - Mobile App, Windows APP, Service APP.
+          - ADD Web-References
+          - ADD Service-Reference
+            - Create an instance and call it easily.
+              - Proxy Methods
+  - Weakness: No Security
+    - SMS or Payment Online -> Needs parameters like Username & Passwords in each request!
+    -Protocol HTTPS
+
+WSE: Web Service Extensions
+  - All technologies can not connect WSE.
+  - Only in Microsoft products are available!
+  -2004:
+    WSE -> WCF
+
+WCF : Windows communicates Foundation
+    - Securities
+    - Customizations
+        - Transports
+        - Membership Providers
+        - Authentication Validations
+        - Certificate Security
+          Key Pair Value
+            - Public Private Key
+              - HTTPS:
+                - Private Key will save in Consumer with public key
+                  -Request and Response are encrypted with Keys
+                    - Man in middle [:{
+                      - No log with Routers
+                      - Snipper Software to dump the datas.
+                        - Run some filters with keywords!
+                - Plain Text - HTTP -> Clear data
+                - Add a Security Code based on Certificate.
+                    - Add new Layer of Security
+      - Protocol HTTP, FTP, TCP-IP
+      - Custom Channel -> Encode & Decode the Data.
+        -Messages
+      -Run anywhere! Windows Services, Mono Services, MACOS, Linux, OSService
+        - Background services
+        - Host anywhere
+
+
+Enjoy.
+kamBz
